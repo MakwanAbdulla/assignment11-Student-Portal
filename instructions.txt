@@ -1,0 +1,62 @@
+# Om uppgiften
+
+Du ska bygga en **StudentPortal** i React.
+
+Appen ska hjälpa studenter att:
+
+- Se information om kurser.
+- Läsa nyheter (blogginlägg).
+- Registrera sig till en kurs.
+
+Projektet ska använda **flera viktiga React-koncept** samt **externt UI-bibliotek** och **Routing**.
+
+# Case
+
+- Sätt upp ett nytt React-projekt med **Vite** eller **Create React App**.
+- Använd **React Router** för navigering mellan sidor.
+- Använd **Bootstrap** för att styla layouten (t.ex. Grid, Cards, Buttons).
+- Använd **Material UI** på minst **en viktig komponent** (exempel: en snygg registreringsformulär eller dialogruta).
+- Bygg en **responsiv** och **användarvänlig** app.
+
+# Vad du ska göra
+
+### 1. Routing (React Router)
+
+- Skapa minst **tre sidor**:
+    - **Startsida** (`/`) – Välkomsttext och snabbmeny.
+    - **Kurser** (`/courses`) – Lista på kurser (hämtas från en array eller API).
+    - **Nyheter/Blogg** (`/news`) – Lista av nyheter/bloggposter.
+
+### 2. Navbar (Navigationsmeny)
+
+- Använd **Bootstrap Navbar** som visar länkar till alla sidor.
+
+### 3. Kurslista
+
+- Visa kurser i en **Bootstrap grid**.
+- Varje kurs visas i ett **Bootstrap Card**.
+- Kurskort ska visa:
+    - Kursnamn
+    - Kort beskrivning
+    - En **"Läs mer"**knapp.
+
+### 4. Kursdetaljer (Dynamisk Route)
+
+- När du klickar på "Läs mer", navigera till en ny sida `/courses/:id` som visar mer information om kursen.
+- Använd **React Router params** för att få kursens ID.
+
+### 5. Registrering (Material UI)
+
+**Använd `useContext` och Context API** för att hålla reda på vilka kurser studenten har registrerat sig på och dela denna information över hela appen.
+
+- Skapa en sida eller dialogruta där en student kan registrera sig till en kurs:
+    - Formuläret ska använda **Material UI TextField** och **Material UI Button**.
+    - Formulär ska innehålla:
+        - Namn
+        - E-post
+        - Val av kurs (Dropdown)
+
+### 6. Nyheter / Blogg
+
+- Visa en lista på blogginlägg/nyheter.
+- Inlägg kan vara hårdkodade i en array eller hämtas från ett API (t.ex. https://jsonplaceholder.typicode.com/posts).
