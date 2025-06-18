@@ -1,0 +1,10 @@
+.course-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+}
+.home{
+    text-align: center;
+}

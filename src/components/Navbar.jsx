@@ -25,6 +25,9 @@ export default function NavigationBar() {
                         <Nav.Link as={Link} to="/news">
                             News
                         </Nav.Link>
+                        <Nav.Link as={Link} to="/my-courses">
+                            My Courses
+                        </Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

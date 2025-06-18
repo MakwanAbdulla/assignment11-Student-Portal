@@ -4,17 +4,17 @@ export default function News() {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/posts?_limit=5")
+        fetch("https://jsonplaceholder.typicode.com/posts?_limit=8")
             .then((res) => res.json())
             .then((data) => setPosts(data));
     }, []);
 
     return (
         <div className="container mt-4">
-            <h2>Nyheter</h2>
+            <h1>Nyheter</h1>
             {posts.map((post) => (
                 <div key={post.id} className="mb-3">
-                    <h5>{post.title}</h5>
+                    <h2>{post.title}</h2>
                     <p>{post.body}</p>
                 </div>
             ))}

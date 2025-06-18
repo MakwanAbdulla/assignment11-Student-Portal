@@ -1,35 +1,25 @@
 export const coursesData = [
     {
         id: 1,
-        title: "React - Från Grunden",
+        name: "React - Grundkurs",
         description:
             "Lär dig grunderna i React, från komponenter till state och props.",
-        longDescription:
-            "Denna kurs är designad för nybörjare och täcker allt du behöver veta för att börja bygga moderna webbapplikationer med React. Vi går igenom JSX, komponenter, state, props, hooks som useState och useEffect, och hur du hanterar events.",
-        image: "https://via.placeholder.com/300x200?text=React",
+        details:
+            "Denna kurs täcker allt du behöver för att komma igång med React, inklusive JSX, komponentlivscykeln, hooks som useState och useEffect, och grundläggande state management.",
     },
     {
         id: 2,
-        title: "Avancerad JavaScript",
-        description: "Dyk djupt ner i JavaScripts mer avancerade koncept.",
-        longDescription:
-            "För dig som redan kan grunderna. Kursen utforskar asynkron JavaScript (Promises, async/await), closures, prototypes, ES6+ features och funktionell programmering. Perfekt för att ta dina kunskaper till nästa nivå.",
-        image: "https://via.placeholder.com/300x200?text=JavaScript",
+        name: "Avancerad JavaScript",
+        description: "Dyk djupt ner i JavaScripts mer komplexa koncept.",
+        details:
+            "Vi utforskar asynkron JavaScript med Promises och async/await, closures, prototypes och den senaste ESNext-syntaxen. Perfekt för dig som vill ta dina JS-kunskaper till nästa nivå.",
     },
     {
         id: 3,
-        title: "CSS Grid och Flexbox",
-        description: "Bemästra modern CSS-layout med Grid och Flexbox.",
-        longDescription: ".",
-        image: "https://via.placeholder.com/300x200?text=CSS",
-    },
-    {
-        id: 4,
-        title: "Node.js för Back-End",
+        name: "UI/UX Design för utvecklare",
         description:
-            "Bygg snabba och skalbara server-applikationer med Node.js.",
-        longDescription:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, tempora. Magni ullam fugiat praesentium facilis.",
-        image: "https://via.placeholder.com/300x200?text=Node.js",
+            "Lär dig designprinciper för att bygga snygga och användarvänliga gränssnitt.",
+        details:
+            "Kursen fokuserar på praktiska designprinciper som färglära, typografi, layout och användarflöden. Du lär dig hur du skapar gränssnitt som både ser bra ut och är intuitiva att använda.",
     },
 ];

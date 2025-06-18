@@ -59,4 +59,25 @@ Projektet ska använda **flera viktiga React-koncept** samt **externt UI-bibliot
 ### 6. Nyheter / Blogg
 
 - Visa en lista på blogginlägg/nyheter.
-- Inlägg kan vara hårdkodade i en array eller hämtas från ett API (t.ex. https://jsonplaceholder.typicode.com/posts).
+- Inlägg kan vara hårdkodade i en array eller hämtas från ett API (t.ex. https://jsonplaceholder.typicode.com/posts).src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── CourseCard.jsx
+│   ├── NewsPost.jsx
+│   ├── RegisterForm.jsx    // (Material UI Form)
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Courses.jsx
+│   ├── CourseDetails.jsx
+│   ├── News.jsx
+│   ├── Register.jsx
+│
+├── data/
+│   ├── courses.js
+│   ├── news.js
+│
+├── App.jsx
+├── main.jsx
+├── App.css
