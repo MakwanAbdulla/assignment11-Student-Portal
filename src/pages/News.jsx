@@ -11,7 +11,7 @@ export default function News() {
 
     return (
         <div className="container mt-4">
-            <h1>Nyheter</h1>
+            <h1>News</h1>
             {posts.map((post) => (
                 <div key={post.id} className="mb-3">
                     <h2>{post.title}</h2>

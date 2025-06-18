@@ -25,7 +25,7 @@ export default function CourseRegistration() {
     const [form, setForm] = useState({
         name: "",
         email: "",
-        courseId: parseInt(id) || "", // förifyll om id finns
+        courseId: parseInt(id) || "",
     });
 
     const handleChange = (e) => {
@@ -36,7 +36,7 @@ export default function CourseRegistration() {
     const handleSubmit = (e) => {
         e.preventDefault();
         registerStudent(form);
-        navigate("/courses"); // tillbaks till kurssidan
+        navigate("/courses");
     };
 
     return (
