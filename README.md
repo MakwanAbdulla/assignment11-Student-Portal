@@ -6,7 +6,7 @@
 
 #### You can...
 
-#### Browse courses.
+#### Browse courses. 
 #### Register for courses and manage your enrolled courses.
 #### Read up on the latest news.
 
