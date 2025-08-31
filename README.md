@@ -2,10 +2,12 @@
 
 ## Personal Project
 
- #### Built a single-page web application using React and React Router for navigation.
+### To provide students a place look up courses, track which courses they've registered to, while staying up to the latest news.
 
-#### Implemented course catalog with course details, registration form, and "My Courses" page.
+#### You can...
 
-#### Integrated REST API (JSONPlaceholder) to fetch and display news posts dynamically.
+#### Browse courses.
+#### Register for courses and manage your enrolled courses.
+#### Read up on the latest news.
 
-#### Designed reusable components with Material UI and React-Bootstrap for responsive styling.
+#### Tech stack: React, JavaScript, REST API, Material Ui / React Boostrap and HTML/CSS
